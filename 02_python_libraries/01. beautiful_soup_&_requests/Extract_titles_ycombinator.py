@@ -6,12 +6,27 @@
 
 from bs4 import BeautifulSoup
 import requests
+import csv
 
 source = requests.get("https://news.ycombinator.com/").text
 soup = BeautifulSoup(source, "lxml")
 
 article_title = soup.find_all(class_="titleline")
 
+csv_file = open("ycombinator_scrapped.csv", "w")
+csv_writer = csv.writer(csv_file)
+csv_writer.writerow(["Article_headline", "Article_link"])
+
 for title in article_title:
-    print(title.prettify())
+    a_tag = title.find("a")
+    headline = title.find("a").text
+    link =a_tag["href"]
+    print(headline, "-", link)
+    # print(title.prettify())
+
+    csv_writer.writerow([headline, link])
+
+csv_file.close()    
+
+
 
