@@ -1,0 +1,2 @@
+Selenium Components - 4, IDE, RC, WebDriver, Grid
+For DATA SCRAPPING, WebDriver is the most important, Grid is used to scale. IDE, RC not important
