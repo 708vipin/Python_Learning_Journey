@@ -3,3 +3,5 @@ Brower Instance - like opening a Brower
 Browser Context - performing any action on Brower
 
 The whole idea of Playwright revoles around Modules, Classes with their methods and properties and Assertions.
+
+Locators are one of the most important concept in Playwright.
