@@ -7,3 +7,5 @@ The whole idea of Playwright revoles around Modules, Classes with their methods 
 Locators are one of the most important concept in Playwright.
 
 Playwright also allows us to run parallely in different browsers.
+
+To prove your expertise in Playwright, you can earn certifications like, Playwright 101 form Lambda Test.
