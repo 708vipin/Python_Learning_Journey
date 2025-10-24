@@ -1,0 +1,6 @@
+What - Libarary 
+Use - to pull data from HTML or XML files.
+How - Navigating, Searching & Modifying the parse tree.
+
+STEPS:
+Make the Soup - Use the BeautifulSoup Constructor

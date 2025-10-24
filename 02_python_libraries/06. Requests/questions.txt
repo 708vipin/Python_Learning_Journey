@@ -1,0 +1,1 @@
+When I send a requests.get("url"), I do not see any visible effect. How do I know if this has been executed?
