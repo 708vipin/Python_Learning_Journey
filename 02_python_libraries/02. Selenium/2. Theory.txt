@@ -1,2 +1,3 @@
+Selenium - Browser Automation Tool - Let's us CONTROL a Browser
 Selenium Components - 4, IDE, RC, WebDriver, Grid
 For DATA SCRAPPING, WebDriver is the most important, Grid is used to scale. IDE, RC not important
